@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <section class="section-center">
+      <h3>TIRED OF BORING LOREM IPSUM?</h3>
+      <form class="lorem-form">
+        <label for="amount">Paragraphs:</label>
+        <input
+          type="number"
+          name="amount"
+          id="amount"
+          min="1"
+          max="100"
+          placeholder="3"
+          required
+        />
+        <button type="submit" class="btn">Generate</button>
+      </form>
+
+      <article class="lorem-text"></article>
+    </section>
     <!-- javascript -->
     <script src="./js/app.js"></script>
   </body>
